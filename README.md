@@ -7,8 +7,8 @@ Static single-page web app for the council stormwater rainfall, prioritisation, 
 - Repository: `Pluviometrics/stormwater-tools`
 - Canonical local path: `D:\repos\pluviometrics\stormwater-tools`
 - Live URL: https://stormwater-tools.pluviometrics.com.au
-- Deployment branch: `release`
-- Development branch: `main`
+- Deployment branch: `main` (pushes to `main` deploy automatically)
+- Development: feature branches → reviewed PR → `main`
 - Deployment mechanism: GitHub Pages via `.github/workflows/deploy.yml`
 
 The live site is served from root-level static assets. Keep `index.html`, `styles.css`, `vendor/`, `templates/`, `CNAME`, `_headers`, and `.nojekyll` at the repository root unless a deployment migration is planned and tested separately.
