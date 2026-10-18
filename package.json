@@ -2,7 +2,7 @@
   "name": "stormwater-tools",
   "private": true,
   "version": "1.0.0",
-  "description": "Stormwater packaging + relining tool — single-page web app",
+  "description": "Stormwater Tools — rainfall AEP calculator, packaging and relining — single-page web app",
   "type": "module",
   "scripts": {
     "build": "node prebuild.mjs",
